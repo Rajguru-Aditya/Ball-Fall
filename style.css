@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: auto;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 255, 191);
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 10; /* z-index is used to make the element always be on the top so no other element can overlap it;*/
+}
+
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: #444;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+/* Start Button*/
+
+.start {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    background: #ffffff;
+    font-family: 'Press Start 2P', "Courier New";
+    color: #444;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
